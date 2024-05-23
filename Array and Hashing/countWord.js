@@ -2,6 +2,7 @@ const paragraph = "This is a test. This test is only a test.";
 
 const newString = paragraph.replace(/[.,]/g, "").split(" ");
 
+//set map
 const map = new Map();
 
 newString.forEach((word)=>{
@@ -13,4 +14,5 @@ newString.forEach((word)=>{
     }
 })
 
+console.log(map)
 console.log(map)
